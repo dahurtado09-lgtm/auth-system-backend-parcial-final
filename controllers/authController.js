@@ -68,7 +68,7 @@ const login = async (req, res) => {
       });
     }
 
-    const tokenJWT = generateToken({ userId: user.id, version: "v1" });
+    const tokenJWT = generateToken({ userId: user.id, version: "v2" });
 
     res.json({
       status: "success",

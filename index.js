@@ -1,4 +1,3 @@
-console.log("Mi primera app en express.js");
 require('dotenv').config();
 const express = require('express');
 const { corsMiddleware } = require('./shared/middleware/cors');
